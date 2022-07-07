@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv0">Hướng dẫn chơi Sudoku</string>
+
+    <string name="tv1">Xin giới thiệu cách chơi Sudoku ! Trước hết, bạn cần một trí tuệ sắc bén và một chút tập trung. Luật chơi Sudoku cực kỳ đơn giản, nhưng đáp án đôi khi lại cực kỳ khó giải. Do không cần dùng đến kiến thức số học hay tính toán, Sudoku thích ứng cho mọi người. Vì vậy trẻ em cũng có cơ hội giải được Sudoku thành công như người lớn. Hãy bắt đầu nhé! Điền vào những ô trống những con số thích hợp, theo quy luật đơn giản sau: </string>
+
+    <string name="tv2">• Các ô ở mỗi hàng (ngang) phải có đủ các số từ 1 đến 9, không cần theo thứ tự.</string>
+
+    <string name="tv3">• Các ô ở mỗi cột (dọc) phải có đủ các số từ 1 đến 9, không cần theo thứ tự.</string>
+
+    <string name="tv4">• Mỗi miền 3x3, được viền đậm, phải có đủ các số từ 1 đến 9.</string>
+
+    <string name="tv5">Trò chơi bắt đầu với một lưới Sudoku, trong đó một số ô đã cho sẵn các con số đúng. Bạn phải suy luận để tìm ra những con số trong các ô trống còn lại. Các đề sudoku mức dễ thường bắt đầu với nhiều con số đã được điền sẵn, do đó bạn sẽ dễ tìm ra đáp án hơn. Càng tìm ra nhiều con số, bạn sẽ càng dễ tìm ra các con số khác. </string>
+
+    <string name="Newgame">Game mới</string>
+
+    <string name="Continue">Tiếp tục</string>
+
+    <string name="Highscore">Điểm cao</string>
+
+    <string name="Tutorial">Hướng dẫn</string>
+
+    <string name="app_name">Sudoku</string>
+
+    <string name="new_game_title">Mời chọn độ khó</string>
+
+    <string name="easy_label">Dễ</string>
+
+    <string name="medium_label">Trung Bình</string>
+
+    <string name="hard_label">Khó</string>
+
+    <string name="game_title">Game</string>
+    <string name="exit">Nhấn lần nữa để thoát game</string>
+
+    <string name="Menu">Menu chính</string>
+
+    <string name="Congra">Chúc mừng</string>
+    <string name="winner">Bạn đã chiến thắng !!!</string>
+    <string name="editname">Mời bạn nhập tên:</string>
+</resources>

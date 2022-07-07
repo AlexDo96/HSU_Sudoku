@@ -1,0 +1,40 @@
+<resources>
+    <string name="tv0">How to play Sudoku</string>
+
+    <string name="tv1">Introducing you how to play Sudoku ! First of all, you need a good mind and a little bit of focus. Sudoku is extremely simple, but the answer is sometimes extremely difficult. Do not need to use knowledge or arithmetic calculations, Sudoku adapt to people. So children also have the opportunity to solve Sudoku success as adults. Now get started! Fill in the blanks of the appropriate numbers, according to the following simple rules: </string>
+
+    <string name="tv2">• The cells in each row (horizontal) must meet all the numbers from 1 to 9, without order.</string>
+
+    <string name="tv3">• The cells in each column (vertical) must meet all the numbers from 1 to 9, without order.</string>
+
+    <string name="tv4">• Each 3x3 region, is outlined bold, must have all the numbers from 1 to 9.</string>
+
+    <string name="tv5">The game begins with a Sudoku grid, in which some cells have given the correct figure. You must deduce to find out the numbers in the remaining blanks. The easy level puzzles usually starts with many zeros were filled in, so you will easily find the answer more. The more you find out more numbers, you will more easily find out the other numbers. </string>
+
+    <string name="Newgame">New Game</string>
+
+    <string name="Continue">Continue</string>
+
+    <string name="Highscore">High Score</string>
+
+    <string name="Tutorial">Tutorial</string>
+
+    <string name="app_name">Sudoku</string>
+
+    <string name="new_game_title"> Choose Difficult</string>
+
+    <string name="easy_label">Easy</string>
+
+    <string name="medium_label">Medium</string>
+
+    <string name="hard_label">Hard</string>
+
+    <string name="game_title">Game</string>
+    <string name="exit">Tap one more time to exit</string>
+
+    <string name="Menu">Main Menu</string>
+
+    <string name="Congra">Congratulation</string>
+    <string name="winner">You Win !!!</string>
+    <string name="editname">Please type your name:</string>
+</resources>

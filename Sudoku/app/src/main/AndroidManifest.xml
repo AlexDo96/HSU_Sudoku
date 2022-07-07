@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configChanges="locale"
+    package="com.example.toan.sudoku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newbg1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HighScore"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Difficult"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Win"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Tutorial"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

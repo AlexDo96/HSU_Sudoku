@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_win"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.toan.sudoku.Win"
+    android:weightSum="1"
+    android:background="@drawable/nenwin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02">
+
+        <TextView
+            android:text="@string/Congra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:id="@+id/tvCongratulation"
+            android:layout_weight="0.02"
+            android:layout_marginTop="30dp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/holo_green_light" />
+
+        <TextView
+            android:text="@string/winner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_weight="0.02"
+            android:id="@+id/tvCongra"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/holo_green_light" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:id="@+id/tvTimewin"
+            android:layout_weight="0.02"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/editname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:id="@+id/tvEditname"
+            android:layout_weight="0.02"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textAlignment="center"
+            android:id="@+id/name"
+            android:layout_weight="0.02" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:text="@string/Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGomenu"
+            android:background="@drawable/btnm"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold"
+            android:layout_weight="0.02"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

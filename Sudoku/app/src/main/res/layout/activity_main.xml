@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.toan.sudoku.MainActivity"
+    android:background="@drawable/newbg1">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgButtonSound"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnContinue"
+        android:textSize="20dp"
+        style="@android:style/Widget.Button"
+        android:layout_marginBottom="5dp"
+        tools:textAlignment="center"
+        tools:background="@drawable/btnm"
+        android:background="@drawable/btnm"
+        android:layout_above="@+id/btnNewgame"
+        android:layout_alignLeft="@+id/btnNewgame"
+        android:layout_alignStart="@+id/btnNewgame"
+        android:visibility="visible" />
+
+    <Button
+        android:text="@string/Newgame"
+        android:id="@+id/btnNewgame"
+        android:textSize="20dp"
+        style="@android:style/Widget.Button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:background="@drawable/btnm"
+        android:background="@drawable/btnm"
+        android:layout_above="@+id/btnHighscore"
+        android:layout_alignLeft="@+id/btnHighscore"
+        android:layout_alignStart="@+id/btnHighscore"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:textSize="20dp"
+        android:id="@+id/btnHighscore"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Highscore"
+        tools:background="@drawable/btnm"
+        android:background="@drawable/btnm"
+        android:layout_above="@+id/btnTutorial"
+        android:layout_alignLeft="@+id/btnTutorial"
+        android:layout_alignStart="@+id/btnTutorial" />
+
+    <Button
+        android:text="@string/Tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTutorial"
+        style="@android:style/Widget.Button"
+        android:textSize="20dp"
+        tools:background="@drawable/btnm"
+        android:background="@drawable/btnm"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vietnam"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/vietnam"
+        android:id="@+id/imgButtonVie" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/england"
+        android:id="@+id/imgButtonEng"
+        android:background="@drawable/england"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imgButtonVie"
+        android:layout_toStartOf="@+id/imgButtonVie" />
+
+</RelativeLayout>
